@@ -1,0 +1,40 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+on windows i use fc to compare 2 files. i see the differences and can easily find a bug in one of the files.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+the keyword is version-control ;-)
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+pros:
+* i have the control to make the commits in the right way (one per logical change)
+* i get a very usefull history, that gives me the possibility to make usefull diffs
+
+cons:
+* if i forget to commit or commit more than one change with one commit, it can be hard, to understand the history
+* if i make the commits for too small changes, the history can be very big and unreadable
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+if you make commits per logical change, it can be that more than one file is involved in the concerning function. so its important to commit all the
+related files together with one commit. Systems like Google Docs are not primary made to manage source code but rather single files.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log shows me the history with the ids and comments. git diff gives me the possibility to compare two versions (ids) and shows me the differences in detail
+
+
+How might using version control make you more confident to make changes that could break something?
+
+i can follow the history of changes to find the last version without the bug. than i can diff that version with the current version to find the reason for the bug in my code
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+all the magic... checkouts, commits, diffs, clones :-)
