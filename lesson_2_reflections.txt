@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+The git init will create a .git directory (it's hidden ;-)). It's the first step for creating a new git repo
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging Area contains files that allready added to it by git add. the working directory contains all files no matter if thei are added or not. i get information about it by the command git status
+
+
